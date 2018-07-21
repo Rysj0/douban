@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="header">
+    <text class="title">{{ title }}</text>
+  </view>
+  <!-- <button  open-type="getUserInfo" bindgetuserinfo="bindgetuserinfo">点击授权</button> -->
+  <view class="user" bindtap="getUserInfo">
+    <image class="user-avatar" src="{{ userInfo.avatarUrl }}" mode="aspectFit"/>
+    <text class="user-nickname">{{ userInfo.nickName }}</text>
+  </view>
+</view>
+
+
